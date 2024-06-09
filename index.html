@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Imperial/Metric Unit Converter</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Metric/Imperial Unit Conversion</h1>
+			<label>Units
+				<input type="number" id="input-el" />
+			</label>
+			<button id="convert-btn">Convert</button>
+		</header>
+		<section>
+			<article>
+				<h2>Length (Metre/Feet)</h2>
+				<p><span id="metres">1</span> metres = <span id="unit-ft">1</span> feet | <span id="feet">1</span> feet = <span id="unit-m">1</span> metres</p>
+			</article>
+			<article>
+				<h2>Volume (Litres/Gallons)</h2>
+				<p><span id="litres">1</span> litres = <span id="unit-gal">1</span> gallons | <span id="gallons">1</span> gallons = <span id="unit-l">1</span> litres</p>
+			</article>
+			<article>
+				<h2>Mass (Kilograms/Pounds)</h2>
+				<p><span id="kilos">1</span> kilos = <span id="unit-lb">1</span> pounds | <span id="pounds">1</span> pounds = <span id="unit-kg">1</span> kilos</p>
+			</article>
+		</section>
+	</body>
+	<script src="index.js"></script>
+</html>
